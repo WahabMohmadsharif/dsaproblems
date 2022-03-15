@@ -31,10 +31,9 @@ using namespace std;
 
 				if(lsum<sum)
 					lsum=sum;
-
+      
 				cout<<"sum="<<sum<<endl;		
 		}
-	
 	}
 	cout<<"largest_sumof_subarray="<<lsum<<endl;	
 }
