@@ -17,25 +17,17 @@ using namespace std;
 //4
 	void print_subarray(int *array,int size)
 {
-	int lsum=0;
 	for(int i=0;i<size;i++)
 	{
 		for(int j=i;j<size;j++)
 		{
-			int sum=0;
+			
 			for (int k=i;k<=j;k++)
-			{	
-				sum=array[k]+sum;
 				cout<<array[k]<<" ";
-			}
-
-				if(lsum<sum)
-					lsum=sum;
-      
-				cout<<"sum="<<sum<<endl;		
+			cout<<endl;		
+				
 		}
-	}
-	cout<<"largest_sumof_subarray="<<lsum<<endl;	
+	}	
 }
 
 	int main()
