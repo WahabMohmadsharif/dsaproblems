@@ -16,6 +16,6 @@ int main()
 	cin>>bit;
 
 	clear_bit(&num,bit);
-	//print the number after setting the bit
+	//print the number after clearing the bit
 	cout<<num<<endl;
 }
